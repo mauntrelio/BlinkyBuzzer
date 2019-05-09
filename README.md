@@ -39,7 +39,7 @@ void loop() {
 
 ### Constructor / Destructor
 
-***BlinkyBuzzer(byte _pinLed, byte _pinBeep, unsigned int frequency=1000, unsigned int onTime=500, unsigned int offTime=500);**
+**BlinkyBuzzer(byte _pinLed, byte _pinBeep, unsigned int frequency=1000, unsigned int onTime=500, unsigned int offTime=500)**
 
 Creates a BlinkyBuzzer object:
 - pin that controls the led
