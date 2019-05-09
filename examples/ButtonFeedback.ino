@@ -26,8 +26,8 @@ void setup() {
 }
 
 void loop() {
-	buzzer.update();
-	currentTime = millis();
+  buzzer.update();
+  currentTime = millis();
 
   int reading = digitalRead(PIN_BUTTON);
   if (reading != lastButtonState) {
